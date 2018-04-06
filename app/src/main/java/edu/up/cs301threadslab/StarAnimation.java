@@ -90,7 +90,9 @@ public class StarAnimation extends Animation {
 //        Star.starPaint.setColor(Color.rgb(brightness, brightness, brightness));
 //        this.twinkle = false;
 
+        //
         synchronized (field) {
+            //part 3
             int size;
             //made max 900
             newProgress += 100; //100-1000
